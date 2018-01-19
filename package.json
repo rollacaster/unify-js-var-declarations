@@ -1,0 +1,12 @@
+{
+  "name": "unify-js-var-declarations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thomas Sojka",
+  "license": "MIT"
+}

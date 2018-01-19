@@ -1,0 +1,20 @@
+* unify-js-var-declarations
+=jscodeshift= codemod to transform:
+
+#+BEGIN_SRC js
+function a() {
+  var foo = 1,
+    two = 2;
+}
+
+#+END_SRC
+
+into
+
+#+BEGIN_SRC js
+function a() {
+  var foo = 1;
+  var two = 2;
+}
+#+END_SRC
+
